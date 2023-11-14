@@ -14,10 +14,8 @@ public class problem097 {
             heights[i] = scanner.nextInt();
         }
 
-        // 키 오름차순으로 정렬
         Arrays.sort(heights);
 
-        // 자리 배치 출력
         int count = 0;
         for (int i = 0; i < n; i++) {
             System.out.print(heights[i] + " ");
