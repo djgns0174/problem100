@@ -1,18 +1,16 @@
 package problem100;
+
 import java.util.Scanner;
 
-public class ex70 {
+public class problem070 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int d = scanner.nextInt();
-        int n = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int d = sc.nextInt();
+        int n = sc.nextInt();
 
-        int r = (int) Math.pow(d,n-1);
-        int result = a*r;
-
+        int result = a*(int)Math.pow(d,n-1);
         System.out.printf("%d",result);
-
-
+        sc.close();
     }
 }

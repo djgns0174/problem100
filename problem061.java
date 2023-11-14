@@ -1,37 +1,37 @@
 package problem100;
+
 import java.util.Scanner;
 
-public class ex61 {
-
+public class problem061 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 터널 a, b, c의 높이를 입력받습니다.
-        int a = scanner.nextInt();
-        String scansign  = scanner.next();
-        int b = scanner.nextInt();
-        int c = 0;
+        int num1 = scanner.nextInt();
 
-        char sign = scansign.charAt(0);
+        char operator = scanner.next().charAt(0);
 
-        if (sign == '+')
-        {
-            c = a+b;
-            System.out.printf("%d",c);
-        } else if ( sign == '-') {
-            c = a-b;
-            System.out.printf("%d",c);
-        }else if ( sign == '*') {
-            c = a*b;
-            System.out.printf("%d",c);
-        }else if ( sign == '/') {
-            c = a/b;
-            System.out.printf("%d",c);
+        int num2 = scanner.nextInt();
+
+        double result = 0.0;  
+
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                if (num2 != 0) {
+                    result = (double) num1 / num2;
+                } 
+                break;
         }
+        System.out.printf("계산 결과: %.2f\n", result);
 
-
-
-
+        scanner.close();
     }
-
 }

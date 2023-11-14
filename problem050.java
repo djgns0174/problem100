@@ -2,7 +2,7 @@ package problem100;
 
 import java.util.Scanner;
 
-public class ex50{
+public class problem050 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
