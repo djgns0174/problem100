@@ -1,7 +1,7 @@
 package problem100;
 import java.util.Scanner;
 
-public class ex99 {
+public class problem099 {
     static void printGrade(int score) {
         if (score >= 90) {
             System.out.println("A학점");

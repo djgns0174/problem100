@@ -2,7 +2,7 @@ package problem100;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ex100 {
+public class problem0100 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();

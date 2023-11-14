@@ -1,7 +1,7 @@
 package problem100;
 import java.util.Scanner;
 
-public class ex78 {
+public class problem078 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // 초기값 설정

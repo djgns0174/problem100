@@ -1,6 +1,6 @@
 package problem100;
 
-public class ex3 {
+public class problem003 {
 
     public static void main(String[] args) {
         System.out.print("Hello\n");

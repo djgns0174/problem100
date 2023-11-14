@@ -2,7 +2,7 @@ package problem100;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ex97 {
+public class problem097 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
