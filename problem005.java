@@ -1,4 +1,4 @@
-package java_ex100;
+package problem100;
 
 public class ex5 {
 

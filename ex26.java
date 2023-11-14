@@ -1,4 +1,4 @@
-package java_ex100;
+package problem100;
 import java.util.*;
 
 public class ex26 {

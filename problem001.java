@@ -1,5 +1,5 @@
-package java_ex100;
-//asdfasdfasdfasdf
+package problem100;
+
 public class ex1 {
 
     public static void main(String[] args)
